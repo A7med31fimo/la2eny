@@ -1,0 +1,180 @@
+{
+  "@@locale": "en",
+
+  "appName": "LocalAI",
+  "@appName": { "description": "The app name" },
+
+  "tabHome": "Home",
+  "tabDiscover": "Discover",
+  "tabChat": "Chat",
+  "tabFavorites": "Favorites",
+  "tabProfile": "Profile",
+
+  "homeGreeting": "Good {timeOfDay}!",
+  "@homeGreeting": {
+    "placeholders": {
+      "timeOfDay": { "type": "String" }
+    }
+  },
+  "homeFindPlace": "Find the perfect place",
+  "homeCategoriesTitle": "Browse by Category",
+  "homeFeaturedTitle": "Popular Near You",
+  "homeStartChat": "Ask AI for Recommendations",
+
+  "categoryRestaurants": "Restaurants",
+  "categoryCafes": "Cafés",
+  "categoryStores": "Stores",
+  "categoryFastFood": "Fast Food",
+  "categoryBakeries": "Bakeries",
+  "categoryShopping": "Shopping",
+  "categoryAll": "All Places",
+
+  "discoverTitle": "Discover",
+  "discoverSearch": "Search places...",
+  "discoverFilter": "Filter",
+  "discoverSort": "Sort",
+  "discoverNoResults": "No places found",
+  "discoverNoResultsHint": "Try adjusting your search or filters",
+
+  "sortByDistance": "Distance",
+  "sortByRating": "Rating",
+  "sortByName": "Name",
+  "sortByNewest": "Newest",
+
+  "filterTitle": "Filter Places",
+  "filterCategory": "Category",
+  "filterDistance": "Distance",
+  "filterRating": "Minimum Rating",
+  "filterOpenNow": "Open Now",
+  "filterPriceRange": "Price Range",
+  "filterApply": "Apply Filters",
+  "filterReset": "Reset",
+
+  "placeDetailTitle": "Place Details",
+  "placeDetailAbout": "About",
+  "placeDetailHours": "Working Hours",
+  "placeDetailLocation": "Location",
+  "placeDetailContact": "Contact",
+  "placeDetailMenu": "Menu",
+  "placeDetailPhotos": "Photos",
+  "placeDetailReviews": "Reviews",
+  "placeDetailSocialMedia": "Social Media",
+  "placeDetailWhyMatch": "Why this matches you",
+  "placeDetailOpen": "Open Now",
+  "placeDetailClosed": "Closed",
+  "placeDetailOpenUntil": "Open until {time}",
+  "@placeDetailOpenUntil": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "placeDetailDistance": "{distance} km away",
+  "@placeDetailDistance": {
+    "placeholders": {
+      "distance": { "type": "String" }
+    }
+  },
+  "placeDetailCall": "Call",
+  "placeDetailWebsite": "Website",
+  "placeDetailDirections": "Get Directions",
+  "placeDetailSaveFavorite": "Save to Favorites",
+  "placeDetailRemoveFavorite": "Remove from Favorites",
+
+  "chatTitle": "AI Assistant",
+  "chatPlaceholder": "Ask me to find a place...",
+  "chatWelcome": "Hi! I'm here to help you discover amazing places nearby. What are you looking for today?",
+  "chatWelcomeAr": "مرحباً! أنا هنا لمساعدتك في اكتشاف أماكن رائعة بالقرب منك. ماذا تبحث عنه اليوم؟",
+  "chatThinking": "Finding the best matches...",
+  "chatRecommendations": "Here are my top picks for you:",
+  "chatNewChat": "New Chat",
+  "chatVoiceStart": "Tap to speak",
+  "chatVoiceListening": "Listening...",
+  "chatVoiceStop": "Tap to stop",
+  "chatSend": "Send",
+
+  "authTitle": "Sign In",
+  "authSubtitle": "Sign in to save favorites and personalize your experience",
+  "authGoogleSignIn": "Continue with Google",
+  "authAppleSignIn": "Continue with Apple",
+  "authGuestMode": "Continue as Guest",
+  "authSignOut": "Sign Out",
+  "authSignedInAs": "Signed in as {name}",
+  "@authSignedInAs": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+
+  "favoritesTitle": "My Favorites",
+  "favoritesEmpty": "No favorites yet",
+  "favoritesEmptyHint": "Tap the heart on any place to save it here",
+  "favoritesLoginRequired": "Sign in to save favorites",
+
+  "profileTitle": "Profile",
+  "profileSettings": "Settings",
+  "profileLanguage": "Language",
+  "profileLastSync": "Last synced: {time}",
+  "@profileLastSync": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "profileSyncNow": "Sync Now",
+  "profileSyncing": "Syncing...",
+  "profileSyncSuccess": "Sync complete",
+  "profileSyncError": "Sync failed. Tap to retry.",
+  "profileAbout": "About LocalAI",
+  "profileVersion": "Version {version}",
+  "@profileVersion": {
+    "placeholders": {
+      "version": { "type": "String" }
+    }
+  },
+
+  "settingsTitle": "Settings",
+  "settingsLanguage": "App Language",
+  "settingsLanguageEn": "English",
+  "settingsLanguageAr": "العربية",
+
+  "errorGeneric": "Something went wrong. Please try again.",
+  "errorNoInternet": "No internet connection",
+  "errorNoInternetHint": "You're viewing cached data",
+  "errorRetry": "Retry",
+  "errorEmpty": "No data available",
+
+  "loading": "Loading...",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "done": "Done",
+  "back": "Back",
+  "close": "Close",
+  "save": "Save",
+  "delete": "Delete",
+  "edit": "Edit",
+  "seeAll": "See All",
+  "kmAway": "{distance} km",
+  "@kmAway": {
+    "placeholders": {
+      "distance": { "type": "String" }
+    }
+  },
+  "reviewCount": "{count} reviews",
+  "@reviewCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "timeOfDayMorning": "morning",
+  "timeOfDayAfternoon": "afternoon",
+  "timeOfDayEvening": "evening",
+  "timeOfDayNight": "night",
+
+  "dayMonday": "Monday",
+  "dayTuesday": "Tuesday",
+  "dayWednesday": "Wednesday",
+  "dayThursday": "Thursday",
+  "dayFriday": "Friday",
+  "daySaturday": "Saturday",
+  "daySunday": "Sunday"
+}
