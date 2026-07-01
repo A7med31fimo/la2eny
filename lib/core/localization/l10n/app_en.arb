@@ -1,0 +1,9 @@
+{
+  "@@locale": "en",
+  "appName": "LocalAI",
+  "tabHome": "Home",
+  "tabDiscover": "Discover",
+  "tabChat": "AI Chat",
+  "tabFavorites": "Favorites",
+  "tabProfile": "Profile"
+}
